@@ -1,0 +1,16 @@
+/*
+ * Editor chrome tokens.
+ *
+ * Scope: editor UI chrome only - toolbars, sidebars, controls, timeline frame.
+ * Caption text and subtitle rendering layers must not consume these tokens;
+ * caption styling comes from user data and presets and stays isolated from
+ * editor chrome tokens. The caption display stage must not be nested inside a
+ * Dialog portal subtree.
+ */
+
+:root {
+  --cl-bg: oklch(0.145 0 0);
+  --cl-surface: oklch(0.205 0 0);
+  --cl-text: oklch(0.985 0 0);
+  --cl-accent: oklch(0.62 0.19 259);
+}
